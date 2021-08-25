@@ -1,16 +1,77 @@
+mark { 
+    background-color: transparent;
+}
+
+tr:nth-child(even) {background: #CCC}
+tr:nth-child(odd) {background: #FFF}
+
+li {
+    height:50px;
+}
+
+li:nth-child(1) { 
+    background: url(bien.png) no-repeat 260px; 
+    font-weight: bold;
+}
+
+li:nth-child(2) { 
+    background: url(mal.png) no-repeat 250px; 
+}
+
+li:nth-child(3) { 
+    background: url(chat.png) no-repeat 260px; 
+}
+
+.good {
+    text-transform: capitalize;
+    color:green;
+}
+
+.bad {
+    text-transform: capitalize;
+    color:red;
+}
+
+header > h1 {
+    background-color: yellow;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.villager {
+    border-left:red solid 3px;
+}
+
+.villager {
+    border-left:blueviolet solid 3px;
+}
+
 blockquote {
     margin-left:auto;
     margin-right:auto;
     width:600px;
+    margin-top:80px;
+    margin-bottom: 80px;
+    font-style:italic;
 }
 
-p.blockquote {
+q {
     font-size:160%;
+    background-color: lightgrey;
+    border-left:firebrick solid 3px;
+    padding-left: 30px;
 }
 
 body {
     max-width:90%;
     margin:auto;
+    background-color: linear-gradient(#AAD2F5, #3698FB);
+    background-image: url(background.png) ;
+    background-position :bottom right;
+    background-repeat: no-repeat;
+    background-size:cover;
 }
 
 p {
